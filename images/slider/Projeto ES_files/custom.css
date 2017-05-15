@@ -1,0 +1,48 @@
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+
+.equal {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+}
+
+.arrow{
+	height: 200px;
+}
+
+.arrow i{
+	margin-top: 30%;
+}
+
+.team_icon a,
+.team_icon i{
+	opacity: 1 !important;
+}
+
+.fa-facebook:hover{
+	color: #3b5998;
+}
+
+.fa-twitter:hover{
+	color: #00aced;
+}
+
+
+.do_text{
+	background: #FFF;
+	border-radius: 4px;
+	padding: 30px;
+}
+
+.do_text .fa,
+h5{
+	color: #d71920;
+}
+
