@@ -20,3 +20,29 @@
 .arrow i{
 	margin-top: 30%;
 }
+
+.team_icon a,
+.team_icon i{
+	opacity: 1 !important;
+}
+
+.fa-facebook:hover{
+	color: #3b5998;
+}
+
+.fa-twitter:hover{
+	color: #00aced;
+}
+
+
+.do_text{
+	background: #FFF;
+	border-radius: 4px;
+	padding: 30px;
+}
+
+.do_text .fa,
+h5{
+	color: #d71920;
+}
+
