@@ -96,12 +96,11 @@ a:hover{
   text-decoration:none;
   color:#fff;
 }
-.section_padding_top {
-  padding-top: 30px;
+
+.section_padding{
+  padding: 120px 0;
 }
-.section_padding_bottom {
-  padding-bottom: 120px;
-}
+
 .section-title h1 {
   font-size: 20px;
   font-weight: 700;
