@@ -210,9 +210,9 @@ html,body{height:100%;}
   top: 0;
   width: 100%;
 }
-.slider_area .item {
+/*.slider_area .item {
   position: relative;
-}
+}*/
 .slider_area{position:relative;}
 .slider_area,.slider_area div{height:100%;}
 .slider_bg {
@@ -224,7 +224,7 @@ html,body{height:100%;}
 }
 .slide-1{background-image:url(images/slider/pexels-photo.jpg)}
 .slide-2{background-image:url(images/slider/slide-bg-2.jpg)}
-.slide-3{background-image:url(images/slider/slide-bg-3.jpg)}
+/*.slide-3{background-image:url(images/slider/slide-bg-3.jpg)}*/
 /*-------------------
 [ 2.1 Slider-Text ]
 ---------------------*/
