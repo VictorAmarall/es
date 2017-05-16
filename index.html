@@ -464,6 +464,7 @@
             <div class="row">
                 <div class="what_do_title col-text-center section-title wow flipInX" data-wow-delay="0.3s">
                     <h1>RECURSOS NECESSÁRIOS PARA A EXECUÇÃO DAS ATIVIDADES DOS PROCESSOS</h1>
+                    <p>Click no bloco para saber mais</p>
                 </div>
             </div>
             <div class="row">
@@ -471,78 +472,32 @@
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
                             <div class="single_do">
-                                <div class="col-sm-3 ">
+                                <div class="col-sm-3 resource-modal-pointer" data-toggle="modal" data-target="#resource-modal-people">
                                     <div class="do_text wow fadeInRight " data-wow-delay="0.4s ">
                                         <i class="fa fa-users "></i>
-                                        <a href="# "><h5>PESSOAL</h5></a>
-                                        <ul>
-                                            <li>gerente de Projeto</li>
-                                            <li>Analista de Requisitos</li>
-                                            <li>Analista de Sistema</li>
-                                            <li>Analista de Banco de Dados</li>
-                                            <li>Arquiteto</li>
-                                            <li>Designer</li>
-                                        </ul>
+                                        <h5>PESSOAL</h5>
+                                        <p>Papéis envolvidos no processo do desenvolvimento do projeto</p>
                                     </div>
                                 </div>
-                                <div class="col-sm-3 ">
+                                <div class="col-sm-3 resource-modal-pointer"  data-toggle="modal" data-target="#resource-modal-tools">
                                     <div class="do_text wow fadeInRight " data-wow-delay="0.5s ">
                                         <i class="fa fa-windows "></i>
-                                        <a href="# "><h5>FERRAMENTAS</h5></a>
-                                        <ul>
-                                            <li>Word</li>
-                                            <li>Excel</li>
-                                            <li>Visio</li>
-                                            <li>BRmodelo</li>
-                                            <li>Paint</li>
-                                            <li>StarUML</li>
-                                            <li>Photoshop</li>
-                                            <li>EditVideo</li>
-                                            <li>OSRMT gerência de requisitos.</li>
-                                            <li>RE-tools edição de requisito</li>
-                                            <li>PADS</li>
-                                            <li>Refactoring</li>
-                                            <li>DFD fluxo de dados</li>
-                                            <li>XP programação extrema</li>
-                                            <li>DBDesigner</li>
-                                            <li>SQL Power Architect</li>
-                                            <li>Atah Professional</li>
-                                            <li>Visual Paradigm for UML</li>
-                                            <li>Capture</li>
-                                            <li>Balsamiq</li>
-                                            <li>MockFlow</li>
-                                        </ul>
+                                        <h5>FERRAMENTAS</h5>
+                                        <p>Ferramentas utilizadas no processo do desenvolvimento do projeto</p>
                                     </div>
                                 </div>
-                                <div class="col-sm-3 ">
+                                <div class="col-sm-3 resource-modal-pointer"  data-toggle="modal" data-target="#resource-modal-process">
                                     <div class="do_text wow fadeInRight " data-wow-delay="0.6s ">
                                         <i class="fa fa-arrow-right "></i>
-                                        <a href="# "><h5>PROCESSOS</h5></a>
-                                        <ul>
-                                            <li>Fase de Requisito</li>
-                                            <li>Fase de Análise</li>
-                                            <li>Fase de Projeto</li>
-                                        </ul>
+                                        <h5>PROCESSOS</h5>
+                                        <p>Processos seguidos no desenvolvimento do projeto</p>
                                     </div>
                                 </div>
-                                <div class="col-sm-3 ">
+                                <div class="col-sm-3 resource-modal-pointer"  data-toggle="modal" data-target="#resource-modal-result">
                                     <div class="do_text wow fadeInRight " data-wow-delay="0.7s ">
                                         <i class="fa fa-pie-chart "></i>
-                                        <a href="# "><h5>PRODUTO DO TRABALHO</h5></a>
-                                        <ul>
-                                            <li>Sugestão Comercial</li>
-                                            <li>Organização das Etapas do Levantamento</li>
-                                            <li>Lista de Requisitos</li>
-                                            <li>Ata de Aprovação</li>
-                                            <li>Diagrama de Classes Conceituais</li>
-                                            <li>Lista de Atributos</li>
-                                            <li>Especificações dos Relacionamentos</li>
-                                            <li>Diagrama de Entidade E Relacionamento</li>
-                                            <li>Diagrama de Classes Unificados</li>
-                                            <li>Detalhamento do Módulo ou Sub-sistema</li>
-                                            <li>Interface Visual</li>
-                                            <li>Documentação de Aprovação</li>
-                                        </ul>
+                                        <h5>PRODUTO DO TRABALHO</h5>
+                                        <p>Produto do trabalho</p>
                                     </div>
                                 </div>
                             </div>
@@ -552,7 +507,7 @@
                                 <div class="col-sm-3 wow fadeInRight " data-wow-delay="0.1s ">
                                     <div class="do_text ">
                                         <i class="fa fa-money "></i>
-                                        <a href="# "><h5>RECURSOS FINANCEIROS</h5></a>
+                                        <h5>RECURSOS FINANCEIROS</h5>
                                         <p>Projeto desenvolvido em caráter acadêmico, logo não houve financiamento.</p>
                                     </div>
                                 </div>
@@ -566,6 +521,117 @@
         </div>
     </section>
     <!-- what-we-do-section-end -->
+
+    <!-- resources modals -->
+    <!-- Modal -->
+    <div id="resource-modal-people" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Pessoal</h4>
+          </div>
+          <div class="modal-body">
+            <ul>
+                <li>Gerente de Projeto</li>
+                <li>Analista de Requisitos</li>
+                <li>Analista de Sistema</li>
+                <li>Analista de Banco de Dados</li>
+                <li>Arquiteto</li>
+                <li>Designer</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="resource-modal-tools" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Ferramentas</h4>
+          </div>
+          <div class="modal-body">
+            <ul>
+                <li>Word</li>
+                <li>Excel</li>
+                <li>Visio</li>
+                <li>BRmodelo</li>
+                <li>Paint</li>
+                <li>StarUML</li>
+                <li>Photoshop</li>
+                <li>EditVideo</li>
+                <li>OSRMT gerência de requisitos.</li>
+                <li>RE-tools edição de requisito</li>
+                <li>PADS</li>
+                <li>Refactoring</li>
+                <li>DFD fluxo de dados</li>
+                <li>XP programação extrema</li>
+                <li>DBDesigner</li>
+                <li>SQL Power Architect</li>
+                <li>Atah Professional</li>
+                <li>Visual Paradigm for UML</li>
+                <li>Capture</li>
+                <li>Balsamiq</li>
+                <li>MockFlow</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="resource-modal-process" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Processo</h4>
+          </div>
+          <div class="modal-body">
+            <ul>
+                <li>Fase de Requisito</li>
+                <li>Fase de Análise</li>
+                <li>Fase de Projeto</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="resource-modal-result" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Produto</h4>
+          </div>
+          <div class="modal-body">
+            <ul>
+                <li>Sugestão Comercial</li>
+                <li>Organização das Etapas do Levantamento</li>
+                <li>Lista de Requisitos</li>
+                <li>Ata de Aprovação</li>
+                <li>Diagrama de Classes Conceituais</li>
+                <li>Lista de Atributos</li>
+                <li>Especificações dos Relacionamentos</li>
+                <li>Diagrama de Entidade E Relacionamento</li>
+                <li>Diagrama de Classes Unificados</li>
+                <li>Detalhamento do Módulo ou Sub-sistema</li>
+                <li>Interface Visual</li>
+                <li>Documentação de Aprovação</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- // resources modals -->
+
     <!-- footer-section-start -->
     <footer>
         <div class="container ">
