@@ -58,8 +58,9 @@ h5{
 	margin-bottom: 60px;
 }
 
-.resource-modal-pointer{
+.resource-modal-block{
 	cursor: pointer;
+	margin-bottom: 10px;
 }
 
 
