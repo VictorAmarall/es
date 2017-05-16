@@ -454,7 +454,7 @@ html,body{height:100%;}
 .do_text a h5:hover{
   color:#ddd;
 }
-.do_text p,.believe ,.service_text p:first-child,.strong_text p,.single_counter span,.plan_number p,input, textarea ,required,.menu_item ul li,.popup_text span,.popup_text p{
+.do_text li,.believe ,.service_text p:first-child,.strong_text p,.single_counter span,.plan_number p,input, textarea ,required,.menu_item ul li,.popup_text span,.popup_text p{
   text-transform: uppercase;
 }
 .do_text p {
@@ -462,6 +462,23 @@ html,body{height:100%;}
   display: block;
   line-height: 20px;
   margin-top: 15px;
+}
+
+.do_text ul {
+  list-style: none;
+  padding: 0;
+}
+.do_text li {
+  padding-left: 1.3em;
+  color: #000;
+  text-align: left;
+}
+.do_text li:before {
+  content: "\f00c"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em; /* same as padding-left set on li */
+  width: 1.3em; /* same as padding-left set on li */
 }
 /*-------------------
 [ 5.2 Carousel_2_left ]
@@ -493,7 +510,7 @@ html,body{height:100%;}
   width: 100px;
 }
 .single_sercives_icon i {
-  color: #E7B02D;
+  /*color: #E7B02D;*/
   font-size: 54px;
   padding-top: 22%;
 }
