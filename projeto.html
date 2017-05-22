@@ -37,6 +37,9 @@
                     <li>
                         <a data-target="#modal_4" data-toggle="modal" href="#">Projetar Protótipo Visual</a>
                     </li>
+                    <li>
+                        <a data-target="#modal_5" data-toggle="modal" href="#">Elaborar Diagramas UML</a>
+                    </li>
                 </ol>
                 <button class="btn btn-danger " data-toggle="collapse" data-target="#diagramImage">Mostrar diagrama</button>
             </div>
@@ -66,6 +69,15 @@
                     </li>
                     <li>
                         <a data-target="#modal_artefato_8" data-toggle="modal" href="#">Interface Visual</a>
+                    </li>
+                    <li>
+                        <a data-target="#modal_artefato_9" data-toggle="modal" href="#">Diagrama de Componentes</a>
+                    </li>
+                    <li>
+                        <a data-target="#modal_artefato_10" data-toggle="modal" href="#">Diagrama de Estado</a>
+                    </li>
+                    <li>
+                        <a data-target="#modal_artefato_11" data-toggle="modal" href="#">Diagrama de Objetos</a>
                     </li>
                 </ol>
             </div>
@@ -200,19 +212,23 @@
                     <div class="row">
                         <div class="col-xs-12">
                             <h4>Finalidade</h4>
-                            <p>O objetivo é apresentar as principais características das histórias de usuário, como uma técnica ágil de levantamento de requisitos.</p>
+                            <p>Projetar detalhadamente a estrutura e o comportamento interno de cada subsistema (módulos) através dos artefatos de entrada. Cada módulo tem um conjunto de detalhamento e processos onde apenas usuários específicos utilizaram esses subsistema que faz parte do projeto (Sistema completo)</p>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-xs-12">
                             <h4>Observações</h4>
-                            <p>Mostrar a customização do OpenUP/Basic para a inclusão das histórias de usuário no ciclo de vida do processo.</p>
+                            <p>Deve ser feito em camadas.</p>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-xs-12">
                             <h4>Artefatos de Entrada</h4>
-                            <p>DR Documentação dos Requisitos</p>
+                            <ul>
+                                <li>DC Diagrama de Componentes</li>
+                                <li>DE Diagrama de Estado</li>
+                                <li>DO Diagrama de Objetos</li>
+                            </ul>
                         </div>
                     </div>
                     <div class="row">
@@ -239,13 +255,15 @@
                     <div class="row">
                         <div class="col-xs-12">
                             <h4>Passos</h4>
-                            <p>Levantar mais informações de usuários sobre características a serem implementadas nos softwares.</p>
+                            <ol>
+                                <li>1-Verificar os arquivos de entrada.</li>
+                                <li>2-Dividir o projeto em módulos.</li>
+                            </ol>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-xs-12">
                             <h4>Passos Alternativos </h4>
-                            <p>Facilitar a integração das equipes e a comunicação.</p>
                         </div>
                     </div>
 
@@ -274,13 +292,13 @@
                     <div class="row">
                         <div class="col-xs-12">
                             <h4>Finalidade</h4>
-                            <p>É identificar defeitos introduzidos por novas funcionalidades ou correção de defeitos.</p>
+                            <p>Validar a interface criada pelo designer junto ao cliente.</p>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-xs-12">
                             <h4>Observações</h4>
-                            <p>A cada novo ciclo de teste, o time de testes normalmente executa os testes das novas funcionalidades e os testes regressivos das demais funcionalidades.</p>
+                            <p>A interface validade só passa pra próxima fase caso tenha sido aprovada pelo cliente.</p>
                         </div>
                     </div>
                     <div class="row">
@@ -307,19 +325,25 @@
                     <div class="row">
                         <div class="col-xs-12">
                             <h4>Ferramentas</h4>
-                            <p>Capture ferramenta de testes automatizados.</p>
+                            <ul>
+                                <li>Photoshop</li>
+                                <li>Microsoft Power Point</li>
+                            </ul>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-xs-12">
                             <h4>Passos</h4>
-                            <p>Realizar modificações na aplicação para torná-la mais fácil de testar (testabilidade).</p>
+                            <ol>
+                                <li>Marca um evento junto ao cliente</li>
+                                <li>Apresentar interface proposta</li>
+                            </ol>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-xs-12">
                             <h4>Passos Alternativos </h4>
-                            <p>Integrar sistemas diferentes</p>
+                            <p>Enviar arquivos pelo email caso o cliente não tenha tempo e solicitar a aprovação ou reprovação da interface apresentada.</p>
                         </div>
                     </div>
 
@@ -348,13 +372,13 @@
                     <div class="row">
                         <div class="col-xs-12">
                             <h4>Finalidade</h4>
-                            <p>É a forma mais rápida e econômica de se definir e experimentar um projeto.</p>
+                            <p>Mostrar o software que irá ser implementado de forma rápida e econômica.</p>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-xs-12">
                             <h4>Observações</h4>
-                            <p>Levantamento de requisitos por si só levante uma infinidade de informações que deverão estar dispostas na interface.</p>
+                            <p>Deve conter apenas arquivos visual nada implementado.</p>
                         </div>
                     </div>
                     <div class="row">
@@ -387,13 +411,101 @@
                     <div class="row">
                         <div class="col-xs-12">
                             <h4>Passos</h4>
-                            <p>A interface portanto deve ser tratada desde o primeiro minuto de concepção de um software.</p>
+                            <ol>
+                                <li>Analisar o detalhamento do modulo.</li>
+                                <li>Criar o projeto visual.</li>
+                            </ol>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-xs-12">
                             <h4>Passos Alternativos </h4>
                             <p>A programação deve seguir o visual e não o visual seguir a programação.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal_5">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button aria-hidden="true" class="close" data-dismiss="modal" type="button">&times;</button>
+                    <h4 class="modal-title">Elaborar Diagramas UML</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h4>Projeto</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h4>Finalidade</h4>
+                            <p>É desenvolver diagrama de objetos, diagrama de estados e diagrama de componentes através dos dados de entrada para auxiliar a divisão do projeto.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h4>Observações</h4>
+                            <p>Cada diagrama deve conter todas as características da UML.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h4>Artefatos de Entrada</h4>
+                            <ul>
+                                <li>DCC Diagrama de Classes Conceituais</li>
+                                <li>LA Lista de Atributos</li>
+                                <li>EDR Especificação dos Relacionamentos</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h4>Artefatos de Saída</h4>
+                            <ul>
+                                <li>DC Diagrama de Componentes</li>
+                                <li>DE Diagrama de Estado</li>
+                                <li>DO Diagrama de Objetos</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h4>Papel Responsável:</h4>
+                            <p>Analista de Sistema</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h4>Ferramentas</h4>
+                            <ul>
+                                <li>Enterprise Architect</li>
+                                <li>StarUML</li>
+                                <li>Visual Paradigm for UML</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h4>Passos</h4>
+                            <ol>
+                                <li>Detalhar e criar o diagrama de objetos.</li>
+                                <li>Detalhar e criar o diagrama de componentes.</li>
+                                <li>Detalhar e criar o diagrama de estado.</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h4>Passos Alternativos </h4>
+                            <p>Utilizar outra ferramenta para criar os diagramas.</p>
                         </div>
                     </div>
 
@@ -420,7 +532,7 @@
                             <h1>LA</h1>
                         </div>
                         <div class="col-xs-6">
-                            <h1>Lista os atributos do diagrama</h1>
+                            <h1>Lista de todos os atributos</h1>
                         </div>
                     </div>
                     <div class="row">
@@ -477,7 +589,7 @@
                             <h1>DM</h1>
                         </div>
                         <div class="col-xs-6">
-                            <h1>Detalhamento Das Diretrizes</h1>
+                            <h1>Descrição e divisão do sistema</h1>
                         </div>
                     </div>
                     <div class="row">
@@ -534,7 +646,7 @@
                             <h1>DCC</h1>
                         </div>
                         <div class="col-xs-6">
-                            <h1>Diagramar as Classes</h1>
+                            <h1>Representação  das classes em diagrama</h1>
                         </div>
                     </div>
                     <div class="row">
@@ -564,8 +676,7 @@
                         <div class="col-xs-12">
                             <h4>Ferramentas</h4>
                             <ul>
-                                <li>Word</li>
-                                <li>Excel</li>
+                                <li>StartUML</li>
                             </ul>
                         </div class="col-xs-12">
                     </div>
@@ -853,6 +964,177 @@
             </div>
         </div>
     </div>
+    <div class="modal fade" id="modal_artefato_9">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button aria-hidden="true" class="close" data-dismiss="modal" type="button">&times;</button>
+                    <h4 class="modal-title">Diagrama de Componentes</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <h1>DC</h1>
+                        </div>
+                        <div class="col-xs-6">
+                            <h1>Representa uma coleção de componentes de software e seus inter-relacionamentos.</h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h4>Papel</h4>
+                            <p>Analista de Sistema</p>
+                        </div class="col-xs-12">
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h4>Incluído em</h4>
+                            <ul>
+                                <li>Elaborar Diagramas UML</li>
+                                <li>Levantar Arquitetura</li>
+                            </ul>
+                        </div class="col-xs-12">
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h4>Modelos</h4>
+                        </div class="col-xs-12">
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h4>Exemplos</h4>
+                        </div class="col-xs-12">
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h4>Ferramentas</h4>
+                            <ul>
+                                <li>StartUML</li>
+                            </ul>
+                        </div class="col-xs-12">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal_artefato_10">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button aria-hidden="true" class="close" data-dismiss="modal" type="button">&times;</button>
+                    <h4 class="modal-title">Diagrama de Estado</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <h1>DE</h1>
+                        </div>
+                        <div class="col-xs-6">
+                            <h1>Representa um conjunto de estados que um objeto pode estar e os “gatilhos” que estimulam a transição do objeto de um estado para outro</h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h4>Papel</h4>
+                            <p>Analista de Sistema</p>
+                        </div class="col-xs-12">
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h4>Incluído em</h4>
+                            <ul>
+                                <li>Elaborar Diagramas UML</li>
+                                <li>Levantar Arquitetura</li>
+                            </ul>
+                        </div class="col-xs-12">
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h4>Modelos</h4>
+                        </div class="col-xs-12">
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h4>Exemplos</h4>
+                            <p>Sistema funcional</p>
+                        </div class="col-xs-12">
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h4>Ferramentas</h4>
+                            <ul>
+                                <li>StartUML</li>
+                            </ul>
+                        </div class="col-xs-12">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal_artefato_11">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button aria-hidden="true" class="close" data-dismiss="modal" type="button">&times;</button>
+                    <h4 class="modal-title">Diagrama de Objetos</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <h1>DO</h1>
+                        </div>
+                        <div class="col-xs-6">
+                            <h1>Representa um retrato, em tempo de execução, dos objetos do software e seus inter-relacionamentos</h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h4>Papel</h4>
+                            <p>Analista de Sistema</p>
+                        </div class="col-xs-12">
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h4>Incluído em</h4>
+                            <ul>
+                                <li>Elaborar Diagramas UML</li>
+                                <li>Levantar Arquitetura</li>
+                            </ul>
+                        </div class="col-xs-12">
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h4>Modelos</h4>
+                        </div class="col-xs-12">
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h4>Exemplos</h4>
+                            <p>Sistema funcional</p>
+                        </div class="col-xs-12">
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h4>Ferramentas</h4>
+                            <ul>
+                                <li>Photoshop</li>
+                                <li>EditVideo</li>
+                            </ul>
+                        </div class="col-xs-12">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- // Artefatos Modals -->
     <!-- Papéis Modals -->
     <div class="modal fade" id="modal_papel_1">
@@ -860,12 +1142,12 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button aria-hidden="true" class="close" data-dismiss="modal" type="button">&times;</button>
-                    <h4 class="modal-title">Levantar Arquitetura</h4>
+                    <h4 class="modal-title">Arquiteto</h4>
                 </div>
                 <div class="modal-body">
                     <div class="row">
                         <div class="col-xs-12">
-                            <h1></h1>
+                            <h1>Arquiteto</h1>
                         </div>
                         <div class="col-xs-12">
                             <h4>Atribuições</h4>
@@ -938,19 +1220,15 @@
                         </div>
                         <div class="col-xs-12">
                             <h4>Atribuições</h4>
-                            <ul>
-                                <li>Fornecer diretrizes para planejar um banco de dados da área de trabalho.</li>
-                                <li>Dividir essas informações em apropriado tabelas e colunas.</li>
-                                <li>Atingir as metas em trabalhar com um banco de dados.</li>
-                            </ul>
+                            <p>Responsável por cuidar da parte estética e visual de projetos, peças e animações, sabendo trabalhar com a imagem aliada ao texto.</p>
                         </div>
                         <div class="col-xs-12">
                             <h4>Atividades Relacionadas</h4>
-                            <p>Banco de dados que atenda às suas necessidades e pode acomodar facilmente a alteração.</p>
+                            <p>Ilustrações e definição dos tipos de letra para cartazes além de cores.</p>
                         </div>
                         <div class="col-xs-12">
                             <h4>Escolaridade</h4>
-                            <p>Bacharel em Sistema de Informações (nível superior)</p>
+                            <p>Bacharel em Designer (nível superior)</p>
                         </div>
                         <div class="col-xs-12">
                             <h4>Conhecimentos</h4>
@@ -959,7 +1237,7 @@
                                 <ul>
                                     <li>Necessários
                                         <ul>
-                                            <li>Em projetos de DB</li>
+                                            <li>Em projeto visual</li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -974,7 +1252,7 @@
                         </div>
                         <div class="col-xs-12">
                             <h4>Habilidades</h4>
-                            <p>Poder de decisão</p>
+                            <p>Poder de criação</p>
                         </div>
                         <div class="col-xs-6">
                             <h4>Experiência mínima</h4>
@@ -997,7 +1275,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button aria-hidden="true" class="close" data-dismiss="modal" type="button">&times;</button>
-                    <h4 class="modal-title">Validar Interface</h4>
+                    <h4 class="modal-title">Gerente de Projeto</h4>
                 </div>
                 <div class="modal-body">
                     <div class="row">
@@ -1007,15 +1285,20 @@
                         <div class="col-xs-12">
                             <h4>Atribuições</h4>
                             <ul>
-                                <li> Programar e manter os bancos de dados nos ambientes de teste e homologação.</li>
-                                <li>Instalar, configurar e administrar o banco de dados.</li>
-                                <li>Desenvolver e monitorar o desempenho dos servidores.</li>
-                                <li>Garantir maior segurança a informação.</li>
+                                <li>Visar desenvolvimento de novos sistemas.</li>
+                                <li>Orientar equipes com envolvimentos múltiplos.</li>
+                                <li>Gestão de projetos de software.</li>
+                                <li>Servir de guia a um grupo para trabalhar de maneira produtiva.</li>
+                                <li>Produzir Documentação.</li>
+                                <li>Solucionar problemas da Equipe.</li>
                             </ul>
                         </div>
                         <div class="col-xs-12">
                             <h4>Atividades Relacionadas</h4>
-                            <p>Realizar auditoria de usuários, verificação de banco de dados.</p>
+                            <ul>
+                                <li>Caracterizar a gestão de projetos de software.</li>
+                                <li>Usar de maneira múltipla recursos como equipamentos, ferramentas, laboratórios.</li>
+                            </ul>
                         </div>
                         <div class="col-xs-12">
                             <h4>Escolaridade</h4>
@@ -1028,7 +1311,7 @@
                                 <ul>
                                     <li>Necessários
                                         <ul>
-                                            <li>Em linguagem de modelagem UML.</li>
+                                            <li>Conhecimentos em Projetos.</li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -1043,7 +1326,11 @@
                         </div>
                         <div class="col-xs-12">
                             <h4>Habilidades</h4>
-                            <p></p>
+                            <ul>
+                                <li>Possuir atitudes dinâmicas</li>
+                                <li>Capacidade de Iniciativa</li>
+                                <li>Adaptação à Mudanças</li>
+                            </ul>
                         </div>
                         <div class="col-xs-6">
                             <h4>Experiência mínima</h4>
